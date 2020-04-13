@@ -1,0 +1,118 @@
+html {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	width: 90%;
+	height: 100%;
+	margin: auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+.navbar {
+	padding: 15px 0 0 0;
+	margin-bottom: 60px;
+}
+
+.flexspacing {
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.navbar-collapse {
+flex-grow: 0
+}
+
+#user-icon {
+	font-size: 36px;
+	color: black;
+}
+
+.hero {
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 10px;
+	margin-top: 60px;
+	padding: 20px;
+}
+
+.searchform {
+	display: flex;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
+}
+
+.submitbtn {
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+}
+
+.submitbtn:hover {
+	border-radius: 5px;
+	background-color: grey;
+	color: white;
+}
+
+.dashboard {
+	margin-top: 60px;
+}
+
+.dashboard-grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 60px;
+	margin-top: 40px;
+}
+
+.footer{
+	margin: 60px 0 20px 0;
+}
+
+.footer,.push {
+	height: 20px;
+}
+
+.forms {
+	margin-top: 60px;
+}
+
+.form-field {
+	margin-top: 20px;
+}
+
+h3 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h5 {
+	width: 250px;
+	margin-right: 10px;
+}
+
+.cancelbtn {
+	border-radius: 5px;
+	border: 2px solid black;
+	color: black;
+	margin-right: 10px;
+}
+
+.cancelbtn:hover {
+	border-radius: 5px;
+	background-color: black;
+	color: white;
+	margin-right: 10px;
+}
+
+.form-buttons {
+	display: flex;
+	margin-top: 40px;
+	justify-content: center;
+}
