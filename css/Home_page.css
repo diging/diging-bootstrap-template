@@ -6,6 +6,7 @@ html {
 body {
 	height: 100%;
 	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .body-width {
@@ -74,7 +75,7 @@ a.bg-dark:hover {
 
 .navbar {
 	padding: 15px 0 0 0;
-	margin-bottom: 60px;
+	margin-bottom: 35px;
 }
 
 .flexspacing {
@@ -107,13 +108,13 @@ flex-grow: 0
 
 .submitbtn {
 	border-radius: 5px;
-	background-color: black;
+	background-color: #0537CC;
 	color: white;
 }
 
 .submitbtn:hover {
 	border-radius: 5px;
-	background-color: grey;
+	background-color: #575FF2;
 	color: white;
 }
 
@@ -129,7 +130,7 @@ flex-grow: 0
 }
 
 .footer{
-	margin: 60px 0 20px 0;
+	margin: 100px 0 20px 0;
 }
 
 .footer,.push {
@@ -137,7 +138,7 @@ flex-grow: 0
 }
 
 .forms {
-	margin-top: 60px;
+	margin-top: 40px;
 }
 
 .form-field {
@@ -156,8 +157,8 @@ h5 {
 
 .cancelbtn {
 	border-radius: 5px;
-	border: 2px solid black;
-	color: black;
+	background-color: #787778;
+	color: white;
 	margin-right: 10px;
 }
 
@@ -176,7 +177,7 @@ h5 {
 
 .statusbtn {
 	border-radius: 20px;
-	background-color: black;
+	background-color: #0537CC;
 	color: white;
 	height: 18px;
 	font-size: 12px;
@@ -187,3 +188,47 @@ h5 {
 	margin-right: 10px;
 }
 
+.alert {
+	margin: 20px 0;
+	border: none;
+}
+
+.alert-primary {
+	background-color: #0537CC;
+	color: white;
+}
+
+.alert-secondary {
+	background-color: #787778;
+	color: white;
+}
+
+.alert-success {
+	background-color: #168039;
+	color: white;
+}
+
+.alert-danger {
+	background-color: #D93B3B;
+	color: white;
+}
+
+.alert-warning {
+	background-color: #FF8600;
+	color: white;
+}
+
+.alert-info {
+	background-color: #2F6073;
+	color: white;
+}
+
+.modal-body {
+	text-align: center;
+}
+
+.fa-check-circle {
+	color: #168039;
+	font-size: 84px !important;
+	margin: 0 !important;
+}

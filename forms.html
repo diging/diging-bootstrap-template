@@ -6,88 +6,91 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/Home_page.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-	<div class="wrapper">
-		<nav class="navbar navbar-expand-lg navbar-light flexspacing">
-			<div>
-			  <a class="navbar-brand" href="#">Logo</a>
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
+	<div class="body-width">
+		<div class="wrapper">
+			<nav class="navbar navbar-expand-lg navbar-light flexspacing">
+				<div>
+				  <a class="navbar-brand" href="#">Logo</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				</div>
+
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Link</a>
+				      </li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Something else here</a>
+				        </div>
+				      </li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Something else here</a>
+				        </div>
+				      </li>
+				      <li>
+				        <a href="#"><i class="fa fa-user-circle" id="user-icon"></i></a>
+				      </li>
+				    </ul>
+			  	</div>
+			</nav>
+
+			<div class="forms">
+				<h3>Heading</h3>
+				<div class="flexspacing form-field">
+					<h5 >Field 1</h5>
+					<input class="form-control mr-sm-2" type="input" placeholder="Type...." aria-label="input">
+				</div>
+				<div class="flexspacing form-field">
+					<h5>Field 2</h5>
+					<input class="form-control mr-sm-2" type="input" placeholder="Type...." aria-label="input">
+				</div>
+				<div class="flexspacing form-field">
+					<h5>Field 3</h5>
+					<input class="form-control mr-sm-2" type="input" placeholder="Type...." aria-label="input">
+				</div>
+				<div class="flexspacing form-field">
+					<h5>Field 4</h5>
+					<textarea class="form-control mr-sm-2" rows="4" type="input" placeholder="Type...." aria-label="input"></textarea>
+				</div>
+
+				<div class="form-buttons">
+					<button class="btn cancelbtn" type="submit">Cancel</button>
+					<button class="btn submitbtn" type="submit">Submit</button>
+				</div>
+
 			</div>
 
-		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Link</a>
-			      </li>
-			      <li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Dropdown
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			        </div>
-			      </li>
-			      <li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Dropdown
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			          <a class="dropdown-item" href="#">Action</a>
-			          <a class="dropdown-item" href="#">Another action</a>
-			          <div class="dropdown-divider"></div>
-			          <a class="dropdown-item" href="#">Something else here</a>
-			        </div>
-			      </li>
-			      <li>
-			        <a href="#"><i class="fa fa-user-circle" id="user-icon"></i></a>
-			      </li>
-			    </ul>
-		  	</div>
-		</nav>
 
-		<div class="forms">
-			<h3>Heading</h3>
-			<div class="flexspacing form-field">
-				<h5 >Field 1</h5>
-				<input class="form-control mr-sm-2" type="input" placeholder="Type...." aria-label="input">
-			</div>
-			<div class="flexspacing form-field">
-				<h5>Field 2</h5>
-				<input class="form-control mr-sm-2" type="input" placeholder="Type...." aria-label="input">
-			</div>
-			<div class="flexspacing form-field">
-				<h5>Field 3</h5>
-				<input class="form-control mr-sm-2" type="input" placeholder="Type...." aria-label="input">
-			</div>
-			<div class="flexspacing form-field">
-				<h5>Field 4</h5>
-				<textarea class="form-control mr-sm-2" rows="4" type="input" placeholder="Type...." aria-label="input"></textarea>
-			</div>
-
-			<div class="form-buttons">
-				<button class="btn cancelbtn" type="submit">Cancel</button>
-				<button class="btn submitbtn" type="submit">Submit</button>
-			</div>
-
+			<div class="push"></div>
 		</div>
 
-
-		<div class="push"></div>
-	</div>
-
-	<div class="footer flexspacing">
- 		 <h6>version</h6>
-  		 <h6>Copyright of DigInG</h6>
+		<div class="footer flexspacing">
+	 		 <h6>version</h6>
+	  		 <h6>Copyright of DigInG</h6>
+		</div>
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
