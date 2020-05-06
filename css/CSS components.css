@@ -20,7 +20,7 @@ a {
 
 .submitbtn:hover {
 	border-radius: 5px;
-	background-color: #079459;
+	background-color: #56C6C7;
 	color: white;
 }
 
@@ -97,7 +97,7 @@ a {
 }
 
 .alert-success:hover {
-	background-color: #079459;
+	background-color: #56C6C7;
 	color: white;
 	border: none;
 	border-radius: 5px;
@@ -139,56 +139,56 @@ a {
 }
 
 .alert-info:hover {
-	background-color: #08639E;
+	background-color: #5587A2;
 	color: white;
 	border: none;
 	border-radius: 5px;
 }
 
 .alert-backup-1 {
-	background-color: #F57136;
+	background-color: #575FF2;
 	color: white;
 	border: none;
 	border-radius: 5px;
 }
 
 .alert-backup-1:hover {
-	background-color: #F2913D;
+	background-color: #6B8DF2;
 	color: white;
 	border: none;
 	border-radius: 5px;
 }
 
 .alert-backup-2 {
-	background-color: #5145BA;
+	background-color: #D94141;
 	color: white;
 	border: none;
 	border-radius: 5px;
 }
 
 .alert-backup-2:hover {
-	background-color: #8A6DF2;
+	background-color: #F28080;
 	color: white;
 	border: none;
 	border-radius: 5px;
 }
 
 .alert-backup-3 {
-	background-color: #42D93D;
-	color: white;
+	background-color: #BFCFDD;
+	color: #1D3145;
 	border: none;
 	border-radius: 5px;
 }
 
 .alert-backup-3:hover {
-	background-color: #027313;
+	background-color: #1D3145;
 	color: white;
 	border: none;
 	border-radius: 5px;
 }
 
 .alert-backup-4 {
-	background-color: #000;
+	background-color: #212624;
 	color: white;
 	border: none;
 	border-radius: 5px;
@@ -264,49 +264,49 @@ a {
 }
 
 .alert-backup-1-outline {
-	color: #F57136;
-	border: 2px solid #F57136;
+	color: #575FF2;
+	border: 2px solid #575FF2;
 	border-radius: 5px;
 }
 
 .alert-backup-1-outline:hover {
-	background-color: #F57136;
+	background-color: #575FF2;
 	color: white;
 	border-radius: 5px;
 }
 
 .alert-backup-2-outline {
-	color: #5145BA;
-	border: 2px solid #5145BA;
+	color: #D94141;
+	border: 2px solid #D94141;
 	border-radius: 5px;
 }
 
 .alert-backup-2-outline:hover {
-	background-color: #5145BA;
+	background-color: #D94141;
 	color: white;
 	border-radius: 5px;
 }
 
 .alert-backup-3-outline {
-	color: #42D93D;
-	border: 2px solid #42D93D;
+	color: #1D3145;
+	border: 2px solid #1D3145;
 	border-radius: 5px;
 }
 
 .alert-backup-3-outline:hover {
-	background-color: #42D93D;
+	background-color: #1D3145;
 	color: white;
 	border-radius: 5px;
 }
 
 .alert-backup-4-outline {
-	color: #000;
-	border: 2px solid #000;
+	color: #212624;
+	border: 2px solid #212624;
 	border-radius: 5px;
 }
 
 .alert-backup-4-outline:hover {
-	background-color: #000;
+	background-color: #212624;
 	color: white;
 	border-radius: 5px;
 }
@@ -319,3 +319,15 @@ a {
 	display: block;
 }
 
+.badge {
+	font-family: 'Nunito', sans-serif;
+}
+
+.badge-secondary {
+	background-color: #03A688
+}
+
+.disabledbtn {
+	background-color: rgba(0,0,0,0.2);
+	cursor: none;
+}

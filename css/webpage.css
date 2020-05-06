@@ -206,3 +206,18 @@ h6 {
 .table td, .table th {
 	padding: 0.25rem;
 }
+
+.row {
+	margin-top: 100px;
+}
+
+.list-group-item.active, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #03A688;
+    border-color: #03A688;
+}
+
+.list-group-item, .list-group-item:hover {
+    color: black;
+}
